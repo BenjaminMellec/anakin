@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "ZonaPro-Black";
+    src: url("../fonts/ZonaPro-Black.otf") format("truetype");
+}
+
+.container {
+    display: none;
+}
+
+.resp {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background: #C7DFE9;
+    p {
+        margin: 0 auto;
+        font-family: "ZonaPro-Black";
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 40vh;
+        padding-bottom: 40vh;
+        font-size: 2em;
+        background-image: url('../../assets/img/x.svg');
+        background-size: cover;
+    }
+}
